@@ -1,0 +1,25 @@
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+/*sets dimensions and other properties of the tooltip*/
+div.tooltip {
+  width: 200px;
+  height: 130px;
+  padding: 1px;
+  font: 14px sans-serif;
+  background: lightgrey;
+  pointer-events: all;
+  position: absolute;
+}

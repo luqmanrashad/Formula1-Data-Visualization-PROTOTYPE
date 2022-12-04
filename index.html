@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Best F1 Drivers</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <h1><bold>Best Formula 1 Drivers Through Time</bold></h1>
+  <body>
+    <script type="text/javascript" src="scatterplot.js"></script>
+      
+<!--    Can't figure out how to separate the multilinechart and scatterplot-->
+<!--    <script type="text/javascript" src="MultilineChart.js"></script>-->
+      
+    <button class="dark_mode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+      
+    <button class="up5Year" onclick="down5Year()">-5 Year</button>
+    <button class="upYear" onclick="downYear()">-1 Year</button>
+    <button class="curYear"><script>document.write(curYear)</script></button>
+    <button class="downYear" onclick="upYear()">+1 Year</button>
+    <button class="down5Year" onclick="up5Year()">+5 Year</button>
+    <h1></h1>
+  </body>
+
+  <div id="endinfo">
+    <div class="names">
+      <div>Created By:</div>
+      <br />
+      Nihal Ernest
+      <br />
+      Ryan Trinh
+      <br />
+      Reza Pasha
+      <br />
+      Luqman Rashad
+      <br />
+      Khoi Duong
+      <br />
+      <br />
+      In Collaberation with Suresh Lodha
+    </div>
+    <div class="designed">
+      <div>Designed For:</div>
+      <div>CSE163: Data Visualization, Fall 2022</div>
+      <a href="https://formula-1-cse-163.github.io/Best-F1-Drivers">Hosted on GitHub</a>
+    </div>
+    <div class="links">
+      <div class="submit">
+        <a href="https://github.com/Formula-1-CSE-163/Best-F1-Drivers">Files:</a>
+        <div>index.html</div>
+        <div>app.js</div>
+        <div>style.css</div>
+        <div>data folder</div>
+      </div>
+      <div class="sources">
+        <a
+          href="https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020"
+          >Data (1950-2022)</a
+        >
+      </div>
+      <div class="vizsources">
+        <a href="https://bl.ocks.org/mbostock/3887118">Scatterplot</a>
+      </div>
+      <div class="codesources">
+        <a href="https://www.motorsportstats.com/series/formula-one/summary/2022">F1 Motorsports Statistics</a>
+        </div>
+    </div>
+  </div>
+</html>
